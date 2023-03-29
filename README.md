@@ -1,4 +1,4 @@
-# Paramaterized_Centrifugal_Filter
+# Parameterized_Centrifugal_Filter
 Parameterized GMSH code of a vertical centrifugal filter
 
 ## Authors

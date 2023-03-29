@@ -5,7 +5,7 @@ Parameterized GMSH code of a vertical centrifugal filter
 MSc. Damla Serper
 
 ## What is it?
-- Here the Hermle Sieva-3 vertical, basket-type, laboratory-scale centrfiuge is divided into multiple pieces to be drawn with GMSH in a simplified form.
+- Here a vertical, basket-type, laboratory-scale centrfiuge is divided into multiple pieces to be drawn with GMSH in a simplified form.
 - This simplified form is used in the research article: 
 
   ### Assumptions

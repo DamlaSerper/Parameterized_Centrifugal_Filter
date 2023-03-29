@@ -1,14 +1,18 @@
 # Paramaterized_Centrifugal_Filter
 Parameterized GMSH code of a vertical centrifugal filter
 
+## Authors
+MSc. Damla Serper
+
 ## What is it?
-- Here the Hermle Sieva-3 centrfiuge is divided into multiple pieces to be drawn with GMSH in a simplified form.
+- Here the Hermle Sieva-3 vertical, basket-type, laboratory-scale centrfiuge is divided into multiple pieces to be drawn with GMSH in a simplified form.
+- This simplified form is used in the research article: 
 
   ### Assumptions
     - The basket has no thickness (it is drawn as a shell)
     - The outer basket is not drawn
     - The inner basket walls are not drawn, instead the filter mesh is drawn as the wall
-    - The filter mesh pores are assumed to be repeating square pores (to check how the pore sizes are adjusted please check the article: and check the source code)
+    - The filter mesh pores are assumed to be repeating square pores (to check how the pore sizes are adjusted please check the research article and check the source code)
     - Inlet pipe height is modified to fit the application
   
   ### Parts
@@ -19,4 +23,10 @@ Parameterized GMSH code of a vertical centrifugal filter
     - The cylindirical part under the cone,the part that is the connection to the bottom of the inner basket (bot_cyl.geo)
     - Top lid of the inner basket (top_disk.geo)
     - The bottom of the inner basket (bottom_disk.geo)
-    
+
+## How to use it
+  - You can modify the s_mult parameter wihtin to get different different size multipliers that will enable you to keep the total pore area same but reduce the amount of pores and increase the size of them.
+  - You can modify the p_size parameter to adjust the pore size.
+  - You can adjust the top variables to adjust the dimensions of the centrfiuge if you wish so (everything is centered at origin 0,0, refer to picture below).
+
+![drawings](drawings.jpg)

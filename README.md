@@ -2,7 +2,7 @@
 Parameterized GMSH code of a vertical centrifugal filter
 
 ## Authors
-MSc. Damla Serper '*corresponding author*'
+MSc. Damla Serper (Aalto Univeristy, Finland) '*corresponding author*'
 
 ## What is it?
 - Here a vertical, basket-type, laboratory-scale centrfiuge is divided into multiple pieces to be drawn with GMSH in a simplified form.

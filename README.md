@@ -2,11 +2,11 @@
 Parameterized GMSH code of a vertical centrifugal filter
 
 ## Authors
-MSc. Damla Serper
+MSc. Damla Serper '*corresponding author*'
 
 ## What is it?
 - Here a vertical, basket-type, laboratory-scale centrfiuge is divided into multiple pieces to be drawn with GMSH in a simplified form.
-- This simplified form is used in the research article: 
+- This simplified form is used in the research article.
 
   ### Assumptions
     - The basket has no thickness (it is drawn as a shell)
